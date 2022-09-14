@@ -21,3 +21,15 @@
   example routing:
   <button (click)="router.navigate(['/notfound'])">CLICK ME</button>
 </div>
+
+<br>
+
+<div>
+  Service from outer module:
+  {{notFoundService.print()}}
+</div>
+
+<div>
+  Service from parent module:
+  {{appService.print()}}
+</div>
